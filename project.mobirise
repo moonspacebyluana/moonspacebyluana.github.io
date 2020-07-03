@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "MOONSPACE",
-    "currentPage": "index.html",
+    "currentPage": "page1.html",
     "theme": {
       "name": "default",
       "title": "Mobirise",
@@ -151,7 +151,7 @@
           "title": "INSCREVE-TE AQUI",
           "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"mbr-buttons__btn btn btn-lg btn-link\" data-toolbar=\"-mbrLink,-mbrBtnAdd,-mbrBtnMove\">ENVIAR</a>",
           "form": {
-            "action": "moonspacebyluana@gmail.com",
+            "action": "luanaferreira.aluai@gmail.com",
             "alerts": {
               "success": "Obrigado por te inscreveres! Falaremos em breve!!"
             },
