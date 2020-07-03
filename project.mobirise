@@ -1,0 +1,227 @@
+{
+  "settings": {
+    "name": "MOONSPACE",
+    "currentPage": "page1.html",
+    "theme": {
+      "name": "default",
+      "title": "Mobirise",
+      "styling": {},
+      "additionalSetColors": [
+        "#474747"
+      ]
+    },
+    "path": "@PROJECT_PATH@",
+    "versionFirst": "4.8.1",
+    "siteFonts": [],
+    "favicon": "@PROJECT_PATH@/assets/images/luana-128x128-1.png",
+    "noImageResize": "",
+    "uniqCompNum": 4,
+    "versionPublish": "4.8.1"
+  },
+  "pages": {
+    "index.html": {
+      "settings": {
+        "main": true,
+        "title": "Home",
+        "meta_descr": "",
+        "header_custom": "",
+        "footer_custom": "",
+        "html_before": ""
+      },
+      "components": [
+        {
+          "_afterNavbarItem": ".mbr-section > .mbr-box__magnet",
+          "_params": {
+            "showTitle": true,
+            "showText": true,
+            "showButtons": true,
+            "showArrow": true,
+            "contentAlign": "center",
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/mbr-1920x1281.jpg",
+            "parallax": true,
+            "bgColorRadio": false,
+            "bgColor": "#4c6972",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": true,
+            "overlayColor": "#222",
+            "overlayOpacity": "0.7"
+          },
+          "title": "WORKSHOP DE MAQUILHAGEM",
+          "text": "Workshop totalmente gratuito e online para todos aqueles que querem aprender mais.&nbsp;<br>Clica na seta em baixo para ficares a saber mais.",
+          "buttons": "  <a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-default animated fadeInUp delay\" href=\"page1.html\" data-toolbar=\"-mbrBtnMove\">INSCREVE-TE AQUI</a>",
+          "_tags": [
+            "Layout"
+          ],
+          "_name": "header1",
+          "_anchor": "header1-0"
+        },
+        {
+          "_styles": {
+            ".mbr-header__text": {
+              "color": "#474747"
+            },
+            ".mbr-header__subtext": {
+              "color": "#ffffff"
+            },
+            ".mbr-article": {
+              "color": "#ffffff"
+            },
+            ".mbr-article P": {
+              "color": "#474747"
+            }
+          },
+          "_params": {
+            "showTitle": true,
+            "showMeta": false,
+            "showText": true,
+            "showButtons": true,
+            "inverse": false,
+            "imageSize": 50,
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "bgImageRadio": false,
+            "bgImage": "images/bg3.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#ffffff",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": false,
+            "overlayColor": "#222",
+            "overlayOpacity": 0.5
+          },
+          "headerAlign": "left",
+          "media": {
+            "image": {
+              "class": "mbr-figure__img",
+              "width": 1400,
+              "src": "@PROJECT_PATH@/assets/images/luana-1080x1080.jpg",
+              "link": "",
+              "alt": "",
+              "title": "",
+              "active": true
+            },
+            "video": {
+              "src": "http://www.youtube.com/embed/sOSTC6FM6Bw",
+              "class": "mbr-figure__img",
+              "aspectratio": "16:9",
+              "autoplay": false,
+              "loop": false
+            }
+          },
+          "title": "Sobre o workshop",
+          "meta": "By John Smith posted July 30, 2015",
+          "text": "<p>Este workshop de maquilhagem para iniciantes, será totalmente gratuito e online, num formato simples, para que todos tenham acesso.&nbsp;</p><p>A data prevista para este evento será dia 11, sábado, às 16h (Portugal).</p><p><b><i>Conteúdos abordados</i></b></p><p><b><i>- Produtos e pincéis</i></b></p><p><b><i>- Cuidados a ter com a pele antes da maquilhagem</i></b></p><p><b><i>- Aplicar a base e harmonizar o rosto</i></b></p><p><b><i>- Smokey Eyes</i></b></p><p><b><i>- Eyeliner&nbsp;</i></b></p><p><i>Enviarei mais informações após a sua inscrição.</i></p>",
+          "button": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-link\" href=\"page1.html\" data-toolbar=\"-mbrBtnMove\">INSCREVE-TE AQUI</a>",
+          "_tags": [
+            "Layout"
+          ],
+          "_name": "msg-box5",
+          "_anchor": "msg-box5-2"
+        }
+      ]
+    },
+    "page1.html": {
+      "settings": {
+        "meta_descr": "Web Page Generator Description",
+        "title": "Page 1",
+        "order": 1
+      },
+      "components": [
+        {
+          "_params": {
+            "showTitle": true,
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "bgImageRadio": false,
+            "bgImage": "images/bg3.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#efefef",
+            "overlay": false,
+            "overlayColor": "#222",
+            "overlayOpacity": 0.5
+          },
+          "title": "INSCREVE-TE AQUI",
+          "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"mbr-buttons__btn btn btn-lg btn-link\" data-toolbar=\"-mbrLink,-mbrBtnAdd,-mbrBtnMove\">ENVIAR</a>",
+          "form": {
+            "action": "moonspacebyluana@gmail.com",
+            "alerts": {
+              "success": "Obrigado por te inscreveres! Falaremos em breve!!"
+            },
+            "fields": {
+              "name": {
+                "visible": true,
+                "title": "Name",
+                "customTitle": "NOME"
+              },
+              "email": {
+                "visible": true,
+                "title": "Email",
+                "customTitle": "EMAIL"
+              },
+              "phone": {
+                "visible": true,
+                "title": "Phone",
+                "customTitle": "TELEFONE"
+              },
+              "message": {
+                "title": "Message",
+                "customTitle": "QUAIS AS TUAS MAIORES DIFICULDADES NA MAQUILHAGEM"
+              }
+            }
+          },
+          "_tags": [
+            "Layout"
+          ],
+          "_name": "form1",
+          "_anchor": "form1-1"
+        },
+        {
+          "_inherit": "msg-box1",
+          "_styles": {
+            ".mbr-header .mbr-header__text": {
+              "color": "#252525"
+            },
+            ".mbr-article": {
+              "color": "#252525"
+            }
+          },
+          "_params": {
+            "showTitle": true,
+            "showText": false,
+            "showButtons": true,
+            "paddingTop": 2,
+            "paddingBottom": 3,
+            "bgImageRadio": false,
+            "bgImage": "images/bg3.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#efefef",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": false,
+            "overlayColor": "#222",
+            "overlayOpacity": 0.5
+          },
+          "title": "EM BREVE IRÁS RECEBER UM EMAIL COM A TUA CONFIRMAÇÃO! OBRIGADO",
+          "text": "",
+          "button": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-default\" href=\"https://www.instagram.com/_makeup_bymoon/\" data-toolbar=\"-mbrBtnMove\">SEGUE-ME NO INSTAGRAM</a>",
+          "_tags": [
+            "Layout"
+          ],
+          "_name": "msg-box2",
+          "_anchor": "msg-box2-3"
+        }
+      ]
+    }
+  }
+}
